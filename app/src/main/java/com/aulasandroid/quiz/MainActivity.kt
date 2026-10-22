@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
                         startDestination = "inicio",
                     ){
                         composable(route = "inicio"){
-                            InitialScreen(modifier = Modifier.padding(innerPadding))
+                            InitialScreen(modifier = Modifier)
                         }
                     }
                 }
